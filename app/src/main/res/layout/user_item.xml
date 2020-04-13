@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/Imgicon"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texttitle"
+            android:layout_marginTop="8dp"
+            android:text="Volley example"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:paddingLeft="40dp"
+
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
